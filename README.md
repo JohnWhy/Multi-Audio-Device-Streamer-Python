@@ -9,6 +9,7 @@ Requires sounddevice and soundfile
 
 Installation
 1. Create a playlist folder containing the MP3 files you want to stream
+- Note: MP3s are ideally named [ARTIST] - [SONG NAME].mp3 if you want to use the update() function in getInfo.py
 
 2. Find audio device to stream through (output_devices.keys() should list all the audio output devices installed on your system)
 
