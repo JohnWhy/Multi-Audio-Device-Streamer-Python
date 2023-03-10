@@ -27,4 +27,4 @@ If you need other functionality I'm sure you can add it.
 
 Optional:
 
-If you host a website to listen to the audio stream, getInfo might come in handy for displaying the currently playing information.  I set up an html page containing the album artwork and currently playing then use the update(mp3_file_name, playlist_name) function to update the html pages, they get refreshed in an iframe using javascript.  I use the Spotify API to get the album artwork.
+If you host a website to listen to the audio stream, getInfo might come in handy for displaying the currently playing information.  I set up an html page containing the album artwork and currently playing then use the update(mp3_file_name, playlist_name) function to update the html pages, they get refreshed in an iframe using javascript.  I use the Spotify API to get the album artwork.  You can modify this function to fit your use case.
