@@ -26,6 +26,5 @@ playlist_json_cmds.py has 2 commands which might come in handy:
 If you need other functionality I'm sure you can add it.
 
 Optional:
-If you host a website to listen to the audio stream, getInfo might come in handy for displaying the currently playing information.  I set up an html page containing the album artwork and currently playing then use the update(mp3_file_name, playlist_name) function to update the html pages, they get refreshed in an iframe using javascript.  I use the Spotify API to get the album artwork.
 
-To see this code in action, check out https://jpydev.net/radio where it acts as an in-character radio site set in 1998 for the GTA:C RP community: https://gta-chronicles.com/index.php
+If you host a website to listen to the audio stream, getInfo might come in handy for displaying the currently playing information.  I set up an html page containing the album artwork and currently playing then use the update(mp3_file_name, playlist_name) function to update the html pages, they get refreshed in an iframe using javascript.  I use the Spotify API to get the album artwork.
