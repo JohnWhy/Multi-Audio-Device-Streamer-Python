@@ -15,7 +15,7 @@ Installation
 
 3. Use controller.py to create an audio stream (create_stream(audio_device, playlist_name, path_to_mp3_folder))
 
-4. Set up a broadcasting tool to listen to the audio stream (I use BUTT + IceCast)
+4. Set up a broadcasting tool to listen to the audio stream (I use [BUTT](http://danielnoethen.de/butt/howtos/multiple_servers.html) + [IceCast](https://icecast.org/))
 
 5. Enjoy!
 
