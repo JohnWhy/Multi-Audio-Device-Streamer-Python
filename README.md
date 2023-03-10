@@ -2,14 +2,20 @@
 
 Requirements:
 Requires sounddevice and soundfile
+
 `pip install sounddevice`
+
 `pip install soundfile`
 
 Installation
 1. Create a playlist folder containing the MP3 files you want to stream
+
 2. Find audio device to stream through (output_devices.keys() should list all the audio output devices installed on your system)
+
 3. Use controller.py to create an audio stream (create_stream(audio_device, playlist_name, path_to_mp3_folder))
+
 4. Set up a broadcasting tool to listen to the audio stream (I use BUTT + IceCast)
+
 5. Enjoy!
 
 Updating Queue:
